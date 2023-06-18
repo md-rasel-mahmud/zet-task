@@ -1,8 +1,10 @@
 "use client";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import 'swiper/swiper.min.css';
 import { Autoplay } from "swiper";
 
 //import sliders
@@ -34,11 +36,13 @@ const TopBrands = () => {
   return (
     <div className="min-h-[50vh] flex flex-col justify-center">
       <h2 className="text-center text-3xl font-bold">Top Brands on ZET</h2>
-      <p className="text-center my-5">We are trusted by best brand in the country</p>
+      <p className="text-center my-5">
+        We are trusted by best brand in the country
+      </p>
       <div>
         <Swiper
-          slidesPerView={5}
-          spaceBetween={25}
+          slidesPerView={3}
+          spaceBetween={20}
           loop={true}
           speed={2000}
           autoplay={{
@@ -47,6 +51,11 @@ const TopBrands = () => {
             reverseDirection: false,
           }}
           onDurationChange={false}
+          breakpoints={{
+            768: {
+              slidesPerView: 5,
+            },
+          }}
           modules={[Autoplay]}
           className="mySwiper"
         >
