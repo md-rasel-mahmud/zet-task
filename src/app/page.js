@@ -1,4 +1,5 @@
 import EasySteps from "@/components/EasySteps";
+import Footer from "@/components/Footer";
 import HomeBanner from "@/components/HomeBanner";
 import Products from "@/components/Products";
 import Team from "@/components/Team";
@@ -19,6 +20,7 @@ export default function Home() {
         <WhyChooseUs></WhyChooseUs>
       </div>
       <EasySteps></EasySteps>
+      <Footer></Footer>
     </main>
   );
 }
