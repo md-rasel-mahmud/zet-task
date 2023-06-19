@@ -1,3 +1,4 @@
+import EasySteps from "@/components/EasySteps";
 import HomeBanner from "@/components/HomeBanner";
 import Products from "@/components/Products";
 import Team from "@/components/Team";
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="max-w-screen-lg mx-auto">
         <WhyChooseUs></WhyChooseUs>
       </div>
+      <EasySteps></EasySteps>
     </main>
   );
 }
