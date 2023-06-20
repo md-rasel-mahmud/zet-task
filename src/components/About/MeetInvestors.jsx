@@ -38,9 +38,13 @@ const MeetInvestors = () => {
     { img: investorImg12, name: "Gokul Rajaram", title: "Product, DOORDASH" },
   ];
   return (
-    <div>
+    <div className="mx-2 lg:mx-0">
       <h2 className="text-4xl font-bold mt-16">Meet the Investors</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-14 my-20">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid grid-cols-1 lg:grid-cols-3 gap-14 my-20"
+      >
         {investorsLogo.map((investor, index) => (
           <div key={index}>
             <Atropos rotateTouch={false} shadowScale={0.6}>
@@ -49,15 +53,19 @@ const MeetInvestors = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 my-20 gap-20">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid grid-cols-1 lg:grid-cols-3 my-20 gap-20"
+      >
         {investorsInfo.map((investor, index) => (
           <div key={index}>
             <Atropos rotateTouch={false} shadowScale={0}>
               <Image src={investor.img} alt="Investors image"></Image>
-              {investor?.name && <h2 className="text-xl mt-5 font-semibold">{investor?.name}</h2>}
-              {investor?.title && (
-                <p className="text-sm">{investor?.title}</p>
+              {investor?.name && (
+                <h2 className="text-xl mt-5 font-semibold">{investor?.name}</h2>
               )}
+              {investor?.title && <p className="text-sm">{investor?.title}</p>}
             </Atropos>
           </div>
         ))}

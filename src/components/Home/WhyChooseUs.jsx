@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
           alt="line"
         />
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
+      <div data-aos="fade-up" data-aos-duration='1000' className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
         {cardInfo.map((card, index) => (
           <div key={index} className="card lg:justify-start text-left">
             <figure className="lg:!justify-start">

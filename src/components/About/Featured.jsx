@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Featured = () => {
   return (
-    <div className="bg-[#fafbfe] py-20">
+    <div className="bg-[#fafbfe] py-20 mx-2 lg:mx-0">
       <div className="max-w-screen-lg mx-auto">
         <h2 className="text-4xl font-bold">Got Featured</h2>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 my-5">

@@ -17,7 +17,9 @@ const AboutBanner = () => {
               their Zindagi Set. Building a platform that enables you to sell
               financial products & earn up to Rs. 1 lakh every month.
             </p>
-            <p className="uppercase text-lg font-semibold tracking-widest">EARN BETTER. LIVE BETTER.</p>
+            <p className="uppercase text-lg font-semibold tracking-widest">
+              EARN BETTER. LIVE BETTER.
+            </p>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import playStoreImg from "@/assets/plastoreIcon.svg";
 const HomeBanner = () => {
   return (
     <div className="px-4 lg:px-0">
-      <div className="flex flex-col-reverse rounded md:flex-row justify-between bg-[#e9f4ff] lg:h-[360px] my-10 lg:my-[110px] w-full lg:mx-auto mb-auto items-end">
+      <div data-aos="fade-up" className="flex flex-col-reverse rounded md:flex-row justify-between bg-[#e9f4ff] lg:h-[360px] my-10 lg:my-[110px] w-full lg:mx-auto mb-auto items-end">
         <div className="p-6 text-center lg:text-left w-full mx-auto lg:w-1/2 flex flex-col items-start h-full justify-center gap-3">
           <h1 className="text-4xl leading-snug font-bold text-black">
             Become a Financial Advisor and{" "}
