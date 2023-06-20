@@ -6,11 +6,6 @@ import 'aos/dist/aos.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'ZET : Become a Certified Financial Advisor and Earn Big',
-  description: 'ZET : Become a Certified Financial Advisor and Earn Big',
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

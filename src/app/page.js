@@ -8,6 +8,7 @@ import WhyChooseUs from "@/components/Home/WhyChooseUs";
 import "atropos/css";
 import { useEffect } from "react";
 import Aos from "aos";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   useEffect(() => {
@@ -15,6 +16,9 @@ export default function Home() {
   }, []);
   return (
     <main>
+      <Helmet>
+        <title>ZET : Become a Certified Financial Advisor and Earn Big</title>
+      </Helmet>
       <div className="max-w-screen-lg mx-auto">
         <HomeBanner></HomeBanner>
         <TopBrands></TopBrands>
