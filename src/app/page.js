@@ -1,10 +1,9 @@
-import EasySteps from "@/components/EasySteps";
-import Footer from "@/components/Footer";
-import HomeBanner from "@/components/HomeBanner";
-import Products from "@/components/Products";
-import Team from "@/components/Team";
-import TopBrands from "@/components/TopBrands";
-import WhyChooseUs from "@/components/WhyChooseUs";
+import EasySteps from "@/components/Home/EasySteps";
+import HomeBanner from "@/components/Home/HomeBanner";
+import Products from "@/components/Home/Products";
+import Team from "@/components/Home/Team";
+import TopBrands from "@/components/Home/TopBrands";
+import WhyChooseUs from "@/components/Home/WhyChooseUs";
 import "atropos/css";
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
         <WhyChooseUs></WhyChooseUs>
       </div>
       <EasySteps></EasySteps>
-      <Footer></Footer>
     </main>
   );
 }

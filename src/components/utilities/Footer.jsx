@@ -1,5 +1,5 @@
 import React from "react";
-import footerBg from "../assets/footer.webp";
+import footerBg from "@/assets/footer.webp";
 import logo from "@/assets/logoWhite.svg";
 import Image from "next/image";
 
@@ -30,6 +30,7 @@ const Footer = () => {
           <a className="link link-hover">Press kit</a>
         </div>
         <div>
+            <a href="">Social</a>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg

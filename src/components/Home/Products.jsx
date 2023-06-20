@@ -4,13 +4,13 @@ import Atropos from "atropos/react";
 
 import Image from "next/image";
 
-import cardImg1 from "../assets/3dcard1.webp";
-import cardImg2 from "../assets/3dcard2.webp";
-import cardImg3 from "../assets/3dcard3.webp";
-import cardImg4 from "../assets/3dcard4.webp";
+import cardImg1 from "@/assets/3dcard1.webp";
+import cardImg2 from "@/assets/3dcard2.webp";
+import cardImg3 from "@/assets/3dcard3.webp";
+import cardImg4 from "@/assets/3dcard4.webp";
 
-import leftTexure from '../assets/left-product-bg-texture.svg'
-import rightTexure from '../assets/right-product-bg-texture.svg'
+import leftTexure from '@/assets/left-product-bg-texture.svg'
+import rightTexure from '@/assets/right-product-bg-texture.svg'
 
 
 const Products = () => {

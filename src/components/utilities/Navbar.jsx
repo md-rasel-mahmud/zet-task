@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import logo from "../assets/logo.svg";
+import logo from "@/assets/logo.svg";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {

@@ -8,16 +8,16 @@ import 'swiper/swiper.min.css';
 import { Autoplay } from "swiper";
 
 //import sliders
-import slider1 from "../assets/slider1.webp";
-import slider2 from "../assets/slider2.webp";
-import slider3 from "../assets/slider3.webp";
-import slider4 from "../assets/slider4.webp";
-import slider5 from "../assets/slider5.webp";
-import slider6 from "../assets/slider6.webp";
-import slider7 from "../assets/slider7.webp";
-import slider8 from "../assets/slider8.webp";
-import slider9 from "../assets/slider9.webp";
-import slider10 from "../assets/slider10.webp";
+import slider1 from "@/assets/slider1.webp";
+import slider2 from "@/assets/slider2.webp";
+import slider3 from "@/assets/slider3.webp";
+import slider4 from "@/assets/slider4.webp";
+import slider5 from "@/assets/slider5.webp";
+import slider6 from "@/assets/slider6.webp";
+import slider7 from "@/assets/slider7.webp";
+import slider8 from "@/assets/slider8.webp";
+import slider9 from "@/assets/slider9.webp";
+import slider10 from "@/assets/slider10.webp";
 import Image from "next/image";
 
 const TopBrands = () => {

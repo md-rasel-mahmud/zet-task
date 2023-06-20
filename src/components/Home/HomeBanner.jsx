@@ -1,6 +1,6 @@
 import Image from "next/image";
-import bannerImg from "../assets/banner-img.webp";
-import playStoreImg from "../assets/plastoreIcon.svg";
+import bannerImg from "@/assets/banner-img.webp";
+import playStoreImg from "@/assets/plastoreIcon.svg";
 
 const HomeBanner = () => {
   return (
